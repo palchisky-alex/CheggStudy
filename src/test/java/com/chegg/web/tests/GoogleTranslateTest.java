@@ -3,9 +3,7 @@ package com.chegg.web.tests;
 import com.chegg.web.core.BaseTest;
 import com.chegg.web.core.utill.LangList;
 import org.junit.jupiter.api.Test;
-
 import java.io.IOException;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class GoogleTranslateTest extends BaseTest {

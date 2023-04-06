@@ -26,9 +26,15 @@ dependencies {
 
 }
 
-test {
+task runJUnitTests(type: Test) {
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
     useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
 }
+
 
 task runPlaywrightCli(type: JavaExec) {
     mainClass = 'com.microsoft.playwright.CLI'
