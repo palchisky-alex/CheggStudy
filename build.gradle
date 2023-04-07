@@ -14,7 +14,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 
 // https://mvnrepository.com/artifact/com.microsoft.playwright/playwright
-    implementation group: 'com.microsoft.playwright', name: 'playwright', version: '1.32.0'
+    implementation group: 'com.microsoft.playwright', name: 'playwright', version: '1.30.0'
 
     // https://mvnrepository.com/artifact/org.assertj/assertj-core
     testImplementation('org.assertj:assertj-core:3.23.1')
